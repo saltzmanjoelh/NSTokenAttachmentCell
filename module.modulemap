@@ -1,0 +1,5 @@
+module NSTokenAttachmentCell [system] {
+  header "NSTokenAttachmentCell.h"
+  link "NSTokenAttachmentCell"
+  export *
+}
