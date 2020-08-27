@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "NSTokenAttachmentCell", targets: ["NSTokenAttachmentCell"]),
     ],
     targets: [
-        .systemLibrary(name: "NSTokenAttachmentCell", path: "."),
+        .target(name: "NSTokenAttachmentCell"),
     ]
 )
