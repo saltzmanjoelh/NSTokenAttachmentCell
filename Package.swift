@@ -4,5 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "NSTokenAttachmentCell"
+    name: "NSTokenAttachmentCell",
+    products: [
+        .library(name: "NSTokenAttachmentCell", targets: ["NSTokenAttachmentCell"]),
+    ],
+    targets: [
+        .systemLibrary(name: "NSTokenAttachmentCell", path: "."),
+    ]
 )
